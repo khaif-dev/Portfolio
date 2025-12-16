@@ -47,8 +47,8 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: <RiMailLine className="w-6 h-6" />,
-      value: "immafukwo@gmal.com",
-      link: "mailto:immafukwo@gmal.com",
+      value: "imma.khaoma@gmail.com.com",
+      link: "mailto:imma.khaoma@gmail.com",
       color: "blue"
     },
     {
@@ -64,7 +64,7 @@ const Contact = () => {
       color: "blue"
     },
     {
-      icon: <RiLinkedinBoxFill className="w-6 h-6" />,
+      icon: <RiGithubFill className="w-6 h-6" />,
       value: "@khaif-dev",
       link: "https://github.com/khaif-dev",
       color: "blue"
@@ -97,7 +97,7 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="min-h-screen bg-gray-100 dark:bg-neutral-800 w-full px-6 md:px-8 py-8">
+    <section id="contact" className="flex flex-col min-h-screen bg-gray-100 dark:bg-neutral-800 w-full px-6 md:px-8 py-8">
       {/* Header Section */}
       <div className="text-center mb-14">
         <h1 className="text-5xl md:text-4xl font-bold text-black dark:text-white mb-4">
@@ -116,7 +116,7 @@ const Contact = () => {
           <div className="space-y-8">
 
             {/* Contact Details */}
-            <div className="flex justify-center gap-4">
+            <div className="flex flex-col justify-center gap-4 md:flex-row">
               {contactInfo.map((info, index) => {
                 const colors = getColorClasses(info.color)
                 const content = (
