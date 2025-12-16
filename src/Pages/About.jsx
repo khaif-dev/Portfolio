@@ -31,23 +31,23 @@ const About = () => {
         <div className='order-1 lg:order-2 space-y-6'>
          
           <p className='text-lg text-gray-700 dark:text-gray-300 leading-relaxed'>
-            Immaculate Khaoma is a passionate Spatial Data Engineer who bridges the gap between
+            Immaculate Khaoma is a spatial data analyst with a strong focus on bridging the gap between location 
+            data and evidence-based decision-making.
+
+          </p>
+
+          <p className='text-lg text-gray-700 dark:text-gray-300 leading-relaxed'>
+            She leverages the power of
             <span className="font-semibold text-black dark:text-white"> remote sensing</span>,
             <span className="font-semibold text-black dark:text-white"> GIS</span>, and
-            <span className="font-semibold text-black dark:text-white"> software development</span> to transform
-            geospatial data into actionable insights.
+            <span className="font-semibold text-black dark:text-white"> software development</span> 
+            to build end-to-end geospatial data systems that support data collection, processing, analysis, 
+            modeling, visualization, and deployment.
           </p>
 
           <p className='text-lg text-gray-700 dark:text-gray-300 leading-relaxed'>
-            She specializes in building comprehensive analytical systems that handle everything from
-            data collection and processing to modeling, visualization, and deployment. Her mission is
-            to help organizations make smarter, evidence-based decisions using geospatial intelligence.
-          </p>
-
-          <p className='text-lg text-gray-700 dark:text-gray-300 leading-relaxed'>
-            She specializes in building comprehensive analytical systems that handle everything from
-            data collection and processing to modeling, visualization, and deployment. Her mission is
-            to help organizations make smarter, evidence-based decisions using geospatial intelligence.
+            Her mission is to help organizations make smarter, evidence-based decisions through geospatial intelligence.
+            
           </p>
 
           <p className='text-lg text-gray-700 dark:text-gray-300 leading-relaxed'>
