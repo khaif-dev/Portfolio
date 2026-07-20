@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from '@/components/ui/button'
 import { MapPin, Mail, Linkedin, Github, ExternalLink } from 'lucide-react'
 import profile from '@/assets/profile.jpg'
+import resume from '@/assets/IMMACULATEKHAOMA_RESUME.pdf'
 
 const About = () => {
   return (
@@ -56,10 +57,12 @@ const About = () => {
           
           {/* Action Buttons */}
           <div className='flex flex-wrap gap-4 pt-4'>
-             <Button variant="outline" className='border-gray-300 hover:border-gray-400 px-6 py-2'>
-              <ExternalLink className="w-4 h-4 mr-2" />
-              View Resume
-            </Button>
+              <Button variant="outline" className='border-gray-300 hover:border-gray-400 px-6 py-2' asChild>
+                <a href={resume} target="_blank" rel="noopener noreferrer">
+                  <ExternalLink className="w-4 h-4 mr-2" />
+                  View Resume
+                </a>
+              </Button>
           </div>
         </div>
       </div>

@@ -41,11 +41,6 @@ const Footer = () => {
       icon: <Twitter className="w-5 h-5" />,
       label: "Twitter",
       url: "https://twitter.com/immaculate_k"
-    },
-    {
-      icon: <Globe className="w-5 h-5" />,
-      label: "Website",
-      url: "https://immaculatekhaoma.dev"
     }
   ]
 
