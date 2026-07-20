@@ -1,18 +1,24 @@
-# React + Vite
+# Immaculate Khaoma — Data Portfolio 🌍💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This site is a showcase of my work, skills, and experience in **GIS analysis**, **Data Analysis**, and **Monitoring and Evaluation**.
+I created it to serve as a dynamic representation of my growth, learning journey, and the projects I’m passionate about. [View Portfolio](https://khaif-dev.github.io/My-Portfolio/)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About the Project
 
-## React Compiler
+This is a responsive and accessible portfolio website built using  **React JS**.
+The goal is to present my background, showcase selected projects, and provide a direct way for collaborators, clients, or recruiters to get in touch with me.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🧩 Features
 
-Note: This will impact Vite dev & build performances.
+- **Home Page** — a simple introduction to viewers
+- **About Me** — who I am, what I do, and what drives me
+- **Projects Section** — a list of recent projects with descriptions and links to github repo and live demo
+- **Resume Section** — detailed CV layout with education, work experience, and core skills and download link
+- **Contact Form** — with message area, direct email option and social links
 
-## Expanding the ESLint configuration
+## 📌 Technology Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React JS** — Semantic structure and accessibility
+- **Git & GitHub** — Version control and deployment
+
