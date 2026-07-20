@@ -3,7 +3,7 @@ import profile from '@/assets/profile.jpg'
 import TextType from '@/components/ui/TextType'
 import { Button } from '@/components/ui/button'
 import { Mail, ExternalLink } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Home = () => {
   return (
@@ -47,14 +47,14 @@ const Home = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/">
+            <Link to="contact" smooth={true} duration={600}>
               <Button className="bg-black text-white dark:bg-white/90 dark:text-black p-6 text-lg shadow-lg 
               hover:bg-white/60 hover:text-black transition-all duration-300">
                 <Mail className="w-5 h-5 mr-2" />
                 Get In Touch
               </Button>
             </Link>
-            <Link to="/projects">
+            <Link to="projects" smooth={true} duration={600}>
               <Button variant="outline" className="border-2 border-gray-300 dark:border-white hover:border-gray-400 dark:hover:border-gray-500 p-6 text-lg transition-all duration-300">
                 <ExternalLink className="w-5 h-5 mr-2" />
                 View Projects
