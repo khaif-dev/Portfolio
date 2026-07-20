@@ -6,20 +6,20 @@ const Skills = () => {
       title: "ToolBox",
       skills: [
         "KoBoToolbox",
-        "PostgreSQL",
-        "Excel",
-        "R",
+        "Google Earth Engine",
+        "Looker Studio",
+        "JavaScript",
+        "PostgreSQL",      
         "Python",
         "PowerBI",
-        "Looker Studio",
-        "ArcGIS",
-        "QGIS",
-        "Google Earth Engine",
-        "HTML5",
-        "CSS",
-        "JavaScript",
-        "Git",
         "GitHub",
+        "ArcGIS",
+        "Excel",  
+        "QGIS",        
+        "HTML5",        
+        "CSS",
+        "Git",
+        "R"
       ]
     }
   ]
@@ -36,7 +36,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className='max-w-7xl mx-auto space-y-12'>
+      <div className='max-w-5xl mx-auto space-y-12'>
         {skillCategories.map((category, categoryIndex) => (
           <div key={categoryIndex} className='space-y-6'>
             <div className='text-center'>
@@ -45,7 +45,7 @@ const Skills = () => {
               </h2>
             </div>
 
-            <div className='grid grid-cols-5 gap-3'>
+            <div className='grid grid-cols-3 gap-5'>
               {category.skills.map((skill, skillIndex) => (
                 <span
                   key={skillIndex}
