@@ -10,44 +10,24 @@ import { Code, Database, Satellite, GitBranch } from 'lucide-react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Software Development",
+      title: "ToolBox",
       icon: <Code className="w-8 h-8" />,
       skills: [
-        { name: "HTML5", icon: <SiHtml5 className="w-5 h-5" /> },
-        { name: "CSS3", icon: <SiCss3 className="w-5 h-5" /> },
-        { name: "Tailwind CSS", icon: <SiTailwindcss className="w-5 h-5" /> },
-        { name: "Git", icon: <GitBranch className="w-5 h-5" /> },
-        { name: "GitHub", icon: <SiGithub className="w-5 h-5" /> },
         { name: "JavaScript", icon: <SiJavascript className="w-5 h-5" /> },
-        { name: "TypeScript", icon: <SiTypescript className="w-5 h-5" /> },
-        { name: "React.js", icon: <SiReact className="w-5 h-5" /> },
-        { name: "Next.js", icon: <SiNextdotjs className="w-5 h-5" /> },
-        { name: "Node.js", icon: <SiNodedotjs className="w-5 h-5" /> },
-        { name: "MongoDB", icon: <SiMongodb className="w-5 h-5" /> },
-        { name: "Express.js", icon: <SiExpress className="w-5 h-5" /> },      
-        
-      ]
-    },
-    {
-      title: "Data",
-      icon: <Database className="w-8 h-8" />,
-      skills: [
         { name: "KoBoToolbox", icon: <SiCheckmarx  className="w-5 h-5" /> },
         { name: "PostgreSQL", icon: <SiPostgresql className="w-5 h-5" /> },
         { name: "Excel", icon: <RiFileExcel2Fill className="w-5 h-5" /> },
         { name: "R", icon: <SiRstudioide className="w-5 h-5" /> },
         { name: "Python", icon: <SiPython className="w-5 h-5" /> },
         { name: "PowerBI", icon: <PiChartBarBold className="w-5 h-5" /> },
-        { name: "Looker Studio", icon: <SiLooker className="w-5 h-5" /> }
-      ]
-    },
-    {
-      title: "GIS & Remote Sensing",
-      icon: <Satellite className="w-8 h-8" />,
-      skills: [
+        { name: "Looker Studio", icon: <SiLooker className="w-5 h-5" /> },
         { name: "ArcGIS", icon: <SiArcgis className="w-5 h-5" /> },
         { name: "QGIS", icon: <SiQgis className="w-5 h-5" /> },
-        { name: "Google Earth Engine", icon: <SiGoogleearthengine className="w-5 h-5" /> }
+        { name: "Google Earth Engine", icon: <SiGoogleearthengine className="w-5 h-5" /> },    
+        { name: "HTML5", icon: <SiHtml5 className="w-5 h-5" /> },
+        { name: "CSS3", icon: <SiCss3 className="w-5 h-5" /> },
+        { name: "Git", icon: <GitBranch className="w-5 h-5" /> },
+        { name: "GitHub", icon: <SiGithub className="w-5 h-5" /> },
       ]
     }
   ]
@@ -73,7 +53,7 @@ const Skills = () => {
         </h1>
         <div className='w-24 h-1 bg-blue-500 to-purple-600 mx-auto rounded-full mb-4'></div>
         <p className='text-md text-gray-600 dark:text-gray-300 max-w-2xl mx-auto'>
-          Technical skills and tools I work with across software development, data analysis, and geospatial technologies
+          Technical Tools I work with across GIS analysis, data analysis, and M&E
         </p>
       </div>
 

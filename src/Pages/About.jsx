@@ -31,18 +31,17 @@ const About = () => {
         <div className='order-1 lg:order-2 space-y-6'>
          
           <p className='text-lg text-gray-700 dark:text-gray-300 leading-relaxed'>
-            Immaculate Khaoma is a spatial data analyst with a strong focus on bridging the gap between location 
-            data and evidence-based decision-making.
+            Immaculate Khaoma is a spatial data analyst with a strong focus on building
+            data systems that transform data into actionable insights  for decision-making, impact tracking, and performance improvement.
 
           </p>
 
           <p className='text-lg text-gray-700 dark:text-gray-300 leading-relaxed'>
             She leverages the power of
-            <span className="font-semibold text-black dark:text-white"> remote sensing</span>,
-            <span className="font-semibold text-black dark:text-white"> GIS</span>, and
-            <span className="font-semibold text-black dark:text-white"> software development</span> 
-            to build end-to-end geospatial data systems that support data collection, processing, analysis, 
-            modeling, visualization, and deployment.
+            <span className="font-semibold text-black dark:text-white"> data Analytics</span>,
+            <span className="font-semibold text-black dark:text-white"> Geographic Information Systems (GIS)</span>, and
+            <span className="font-semibold text-black dark:text-white"> Monitoring & Evaluation (M&E) </span> 
+            tools to support innovation, evidence-based planning, and sustainable development goals.
           </p>
 
           <p className='text-lg text-gray-700 dark:text-gray-300 leading-relaxed'>
@@ -51,7 +50,7 @@ const About = () => {
           </p>
 
           <p className='text-lg text-gray-700 dark:text-gray-300 leading-relaxed'>
-            Outside her professional work, she enjoys hiking, visual and perfoming arts, and cycling.
+            Outside her professional work, she enjoys hiking and visual and perfoming arts.
           </p>
 
           

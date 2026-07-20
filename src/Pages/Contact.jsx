@@ -47,7 +47,7 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: <RiMailLine className="w-6 h-6" />,
-      value: "imma.khaoma@gmail.com.com",
+      value: "imma.khaoma@gmail.com",
       link: "mailto:imma.khaoma@gmail.com",
       color: "blue"
     },

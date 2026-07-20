@@ -36,7 +36,7 @@ const Home = () => {
           <div className="h-20 flex items-center justify-center">
             <div className="text-2xl md:text-3xl lg:text-4xl font-semibold text-transparent bg-clip-text bg-blue-600">
               <TextType
-                text={["Spatial Data Analyst", "GIS Developer", "Cartographer"]}
+                text={["Data Analyst", "GIS Analyst", "M&E Professional"]}
                 typingSpeed={75}
                 pauseDuration={1500}
                 showCursor={true}
