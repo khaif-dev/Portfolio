@@ -19,62 +19,6 @@ const Projects = () => {
       technologies: ["Python", "OSMNX", "City2Graph"],
       image: walkability,
       github: "https://github.com/khaif-dev/Python-Spatial-Analysis/tree/main/walkability"
-    },
-    {
-      title: "E-commerce Platform",
-      description: "Full-stack e-commerce application with payment integration, inventory management, and admin dashboard.",
-      technologies: ["Next.js", "PostgreSQL", "Stripe", "Prisma"],
-      image: "/path-to-image.jpg",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Sales Analytics Dashboard",
-      description: "Interactive dashboard for sales performance analysis with real-time data visualization and predictive analytics.",
-      technologies: ["Python", "Pandas", "Plotly", "Streamlit"],
-      image: "/path-to-image.jpg",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Customer Segmentation Analysis",
-      description: "Machine learning model for customer segmentation using clustering algorithms to improve marketing strategies.",
-      technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
-      image: "/path-to-image.jpg",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Weather Data Processing",
-      description: "Pipeline for processing and analyzing weather data with automated reporting and trend visualization.",
-      technologies: ["Python", "NumPy", "Pandas", "Matplotlib"],
-      image: "/path-to-image.jpg",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Urban Growth Analysis",
-      description: "Spatial analysis of urban expansion using satellite imagery and change detection techniques over a 10-year period.",
-      technologies: ["ArcGIS", "Python", "GDAL", "PostGIS"],
-      image: "/path-to-image.jpg",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Deforestation Monitoring",
-      description: "Remote sensing project monitoring forest cover changes using NDVI analysis and Landsat satellite data.",
-      technologies: ["QGIS", "Google Earth Engine", "R", "ERDAS"],
-      image: "/path-to-image.jpg",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Flood Risk Assessment",
-      description: "Comprehensive flood risk mapping using DEM data, hydrological modeling, and vulnerability analysis.",
-      technologies: ["ArcGIS Pro", "HEC-RAS", "Python", "PostGIS"],
-      image: "/path-to-image.jpg",
-      link: "#",
-      github: "#"
     }
   ]
 
