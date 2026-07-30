@@ -1,8 +1,8 @@
 import React from 'react'
-import { Button } from '@/components/ui/button'
-import { ExternalLink, Github } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
 import hikingSpots from '@/assets/hikingspots.png'
 import walkability from '@/assets/accessibility.png'
+import nairobiLC from '@/assets/NairobiLC.png'
 
 const Projects = () => {
   const projects = [
@@ -19,7 +19,15 @@ const Projects = () => {
       technologies: ["Python", "OSMNX", "City2Graph"],
       image: walkability,
       github: "https://github.com/khaif-dev/Python-Spatial-Analysis/tree/main/walkability"
+    },
+    {
+      title: "Nairobi Land Cover Assessment",
+      description: "Interactive Land cover app fearuring NDVI, NDBI, MNDWI and BSI in Nairobi County, supporting sustainable urban planning and land management decisions.",
+      technologies: ["GEE", "Earth Observation", "Land Cover"],
+      image: nairobiLC,
+      link: "https://immakhaoma.projects.earthengine.app/view/nairobi-land-cover-assessment"
     }
+    
   ]
 
   return (
@@ -73,28 +81,16 @@ const Projects = () => {
 
                 <div className='flex gap-3 pt-2'>
                   {project.link && project.link !== "#" && (
-                    <Button
-                      size="sm"
-                      asChild
-                      className="flex-1 bg-blue-500 hover:bg-blue-600 text-white"
-                    >
-                      <a href={project.link} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        View Live
-                      </a>
-                    </Button>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 flex items-center gap-1 text-sm font-medium transition-colors">
+                      <ArrowUpRight className="w-4 h-4" />
+                      View App
+                    </a>
                   )}
                   {project.github && project.github !== "#" && (
-                    <Button
-                      size="sm"
-                      asChild
-                      variant="outline"
-                      className="border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800"
-                    >
-                      <a href={project.github} target="_blank" rel="noopener noreferrer">
-                        <Github className="w-4 h-4" />
-                      </a>
-                    </Button>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 flex items-center gap-1 text-sm font-medium transition-colors">
+                      <ArrowUpRight className="w-4 h-4" />
+                      View on Github
+                    </a>
                   )}
                 </div>
               </div>
