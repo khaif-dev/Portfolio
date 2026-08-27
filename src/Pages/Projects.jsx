@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       title: "Urban accessibility analysis",
-      description: "The 15 minute theory assessment of major urban centers in Kenya using OSMNX and city2graph",
+      description: "Comparative network-distance connectivity mapping across Mombasa, Kisumu and Nakuru using road-network graphs to assess urban accessibility and walkability.",
       technologies: ["Python", "OSMNX", "City2Graph"],
       image: walkability,
       github: "https://github.com/khaif-dev/Python-Spatial-Analysis/tree/main/walkability"
