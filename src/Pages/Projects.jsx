@@ -3,6 +3,7 @@ import { ArrowUpRight } from 'lucide-react'
 import hikingSpots from '@/assets/hikingspots.png'
 import walkability from '@/assets/accessibility.png'
 import nairobiLC from '@/assets/NairobiLC.png'
+import trainingVsinjury from '@/assets/trainingVsinjury.png'
 
 const Projects = () => {
   const projects = [
@@ -26,6 +27,14 @@ const Projects = () => {
       technologies: ["GEE", "Earth Observation", "Land Cover"],
       image: nairobiLC,
       link: "https://immakhaoma.projects.earthengine.app/view/nairobi-land-cover-assessment"
+    },
+    {
+      title: "Training Patterns & Injury Risk Analysis",
+      description: "A live KoboToolBox survey analysing relationship between training patterns and self reported injury among fitness enthusiasts. Explanatory data analysis and visulation done in PowerBI.",
+      technologies: ["Excel", "KoboToolBox", "PowerBI"],
+      image: trainingVsinjury,
+      github: "https://github.com/khaif-dev/training_VS_injury#project-summary",
+      linkType: "View on Github"
     }
     
   ]
@@ -38,7 +47,7 @@ const Projects = () => {
         </h1>
         <div className='w-24 h-1 bg-blue-500 to-purple-600 mx-auto rounded-full mb-4'></div>
         <p className='text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto'>
-          A showcase of projects I've worked on across, data, GIS and remote sensing.
+          A showcase of projects I've worked on across, Data, GIS & remote sensing, M&E.
         </p>
       </div>
 
@@ -83,13 +92,13 @@ const Projects = () => {
                   {project.link && project.link !== "#" && (
                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 flex items-center gap-1 text-sm font-medium transition-colors">
                       <ArrowUpRight className="w-4 h-4" />
-                      View App
+                      {project.linkType || "View App"}
                     </a>
                   )}
                   {project.github && project.github !== "#" && (
                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 flex items-center gap-1 text-sm font-medium transition-colors">
                       <ArrowUpRight className="w-4 h-4" />
-                      View on Github
+                      {project.linkType || "View on Github"}
                     </a>
                   )}
                 </div>
