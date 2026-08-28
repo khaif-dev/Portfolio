@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react'
 import hikingSpots from '@/assets/hikingspots.png'
 import walkability from '@/assets/accessibility.png'
 import nairobiLC from '@/assets/NairobiLC.png'
-import trainingVsinjury from '@/assets/trainingVsinjury.png'
+import trainingVsinjury from '@/assets/trainingvsinjury.png'
 
 const Projects = () => {
   const projects = [
