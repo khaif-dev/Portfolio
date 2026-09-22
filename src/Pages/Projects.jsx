@@ -8,13 +8,6 @@ import trainingVsinjury from '@/assets/trainingvsinjury.png'
 const Projects = () => {
   const projects = [
     {
-      title: "Webscrapping and Geocoding",
-      description: "A jupyter notebook that scraps data from a web page and geocodes the data using OSM data.",
-      technologies: ["Python", "OSMNX", "Excel"],
-      image: hikingSpots,
-      github: "https://github.com/khaif-dev/Python-Spatial-Analysis/tree/main/Hiking%20Spot"
-    },
-    {
       title: "Urban accessibility analysis",
       description: "Comparative network-distance connectivity mapping across Mombasa, Kisumu and Nakuru using road-network graphs to assess urban accessibility and walkability.",
       technologies: ["Python", "OSMNX", "City2Graph"],
